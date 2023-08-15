@@ -1,0 +1,58 @@
+---Configuracion---
+> Red
+  - Convolucional + DataAument + DropOut
+> Funciones de activacion
+  - relu, softmax
+> Algorito de entretamiento
+  - Adam
+> Rata de Aprendizaje
+  - 0.0001
+> Erro Maximo Permitido
+  - 0.0001
+> Tipo de red
+  - Multicapa
+> Numero de capas
+ - 11
+
+---Estructura---
+> Input Conv2D
+  - Filtro:32
+  - kernel:(3,3)
+  - funcion de activacion:relu
+> Agrupacion
+  - Tammaño: (2,2)
+  - funcion de activacion:relu
+> Conv2D
+  - Filtro:64
+  - kernel:(3,3)
+  - funcion de activacion:relu
+> Agrupacion
+  - Tammaño: (2,2)
+  - funcion de activacion:relu
+> Conv2D
+  - Filtro:128
+  - kernel:(3,3)
+  - funcion de activacion:relu
+> Agrupacion
+  - Tammaño: (2,2)
+  - funcion de activacion:relu
+> DropOut
+  - Rata: 0.5
+> Flatten
+> Oculta1
+  - numero de neuronas:100
+  - funcion de activacion:relu
+> Oculta2
+  - numero de neuronas:50
+  - funcion de activacion:relu
+> Output
+  - numero de neuronas:7
+  - funcion de activacion:softmax
+
+---Entrenamiento---
+> Iteraciones
+  - 7000
+> Numero de Entrenamientos
+  - 70
+> EMP de la red
+  - 0.0099

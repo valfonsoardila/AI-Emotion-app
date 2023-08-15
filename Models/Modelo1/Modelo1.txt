@@ -1,0 +1,40 @@
+---Configuracion---
+> Red
+  - backpropagation
+> Funciones de activacion
+  - relu, softmax
+> Algorito de entretamiento
+  - Adam
+> Rata de Aprendizaje
+  - 0.0001
+> Erro Maximo Permitido
+  - 0.0001
+> Tipo de red
+  - Multicapa
+> Numero de capas
+ - 5
+
+---Estructura---
+> Input
+  - numero de neuronas:2304
+  - funcion de activacion:relu
+> Oculta1
+  - numero de neuronas:50
+  - funcion de activacion:relu
+> Oculta2
+  - numero de neuronas:50
+  - funcion de activacion:relu
+> Oculta3
+  - numero de neuronas:50
+  - funcion de activacion:relu
+> Output
+  - numero de neuronas:7
+  - funcion de activacion:softmax
+
+---Entrenamiento---
+> Iteraciones
+  - 10000
+> Numero de Entrenamientos
+  - 100
+> EMP de la red
+  - 0.1391
