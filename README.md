@@ -6,3 +6,7 @@
 
 ## `Descripcion`
 Reconocimiento de emociones en tiempo real con Inteligencia artificial. A traves de redes convolucionales
+
+## `Video de demostracion y explicacion de funcionalidad`
+
+`Anexo en la red social meta:` https://www.facebook.com/100070327928352/videos/638023017941212/
